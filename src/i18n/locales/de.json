@@ -1,0 +1,197 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "menu": "Speisekarte",
+    "specialties": "Unsere Spezialitäten",
+    "reviews": "Bewertungen",
+    "contact": "Kontakt",
+    "order": "Bestellen",
+    "reserve": "Reservieren"
+  },
+  "hero": {
+    "subtitle": "Gehobene Küche",
+    "title": "Die Kunst des Genusses",
+    "description": "Saisonale Küche, sorgfältig ausgewählte Produkte, handwerkliches Können, das jedes Gericht veredelt.",
+    "cta_menu": "Speisekarte entdecken",
+    "cta_order": "Tisch reservieren"
+  },
+  "specialties": {
+    "title": "Unsere Spezialitäten",
+    "subtitle": "Die Signature-Gerichte des Küchenchefs",
+    "order_btn": "Reservieren",
+    "items": [
+      { "name": "Tartare de Bœuf", "description": "Handgeschnittenes Rind, Freilandei-Eigelb, Kapern, Gewürze, hausgemachte Pommes", "price": "18.50" },
+      { "name": "Risotto aux Cèpes", "description": "Cremiger Carnaroli-Reis, saisonale Steinpilze, 24 Monate gereifter Parmesan, Trüffelöl", "price": "22.00" },
+      { "name": "Filet de Bar", "description": "Gebratener Wolfsbarsch, Kartoffelstampf, Zitronenbeurre blanc", "price": "26.00" },
+      { "name": "Côte de Bœuf Maturée", "description": "45 Tage gereiftes Rinderkotelette, gratiniertes Knochenmark, kräftiger Jus, geröstetes Gemüse", "price": "38.00" },
+      { "name": "Ravioles de Romans", "description": "Frische Ravioles, Comté-Creme, Walnussemulsion, Schnittlauch", "price": "19.00" },
+      { "name": "Suprême de Volaille", "description": "Freilandhuhn, Morcheljus, Trüffelpüree, saisonales Gemüse", "price": "24.00" }
+    ],
+    "ingredients": [
+      ["Französisches Rind", "Freilandei", "Kapern", "Cornichons", "Schalotten", "Hausgemachte Pommes"],
+      ["Carnaroli-Reis", "Frische Steinpilze", "24 Monate Parmesan", "Trüffelöl", "Hausgemachte Brühe"],
+      ["Angelbarsch", "Kartoffeln", "Gesalzene Butter", "Zitrone", "Frische Kräuter"],
+      ["45 Tage gereiftes Rind", "Knochenmark", "Geröstetes Gemüse", "Fleischjus", "Fleur de sel"],
+      ["Frische Ravioles", "Comté AOP", "Dauphiné-Walnüsse", "Crème fraîche", "Schnittlauch"],
+      ["Freilandhuhn", "Getrocknete Morcheln", "Schwarzer Trüffel", "Kartoffeln", "Butter"]
+    ]
+  },
+  "menu": {
+    "title": "Speisekarte",
+    "subtitle": "Unsere saisonale Auswahl",
+    "categories": {
+      "entrees": "Vorspeisen",
+      "plats": "Hauptgerichte",
+      "poissons": "Fisch",
+      "viandes": "Fleisch",
+      "desserts": "Desserts",
+      "vins": "Weinkarte"
+    },
+    "items": {
+      "entrees": [
+        { "name": "Tagessuppe", "desc": "Saisonale Suppe, Crème fraîche, hausgemachte Croûtons", "price": "9.00" },
+        { "name": "Warmer Ziegenkäse-Salat", "desc": "Blattsalat, gratinierter Ziegenkäse, Walnüsse, Honig", "price": "12.50" },
+        { "name": "Landterrine", "desc": "Hausgemachte Terrine, Cornichons, geröstetes Brot", "price": "11.00" },
+        { "name": "Rinder-Carpaccio", "desc": "Rohes Rindfleisch, Rucola, Parmesan, Olivenöl", "price": "14.00" },
+        { "name": "Ei im Cocotte", "desc": "Freilandei, Pilzcreme, Brotstreifen", "price": "10.50" },
+        { "name": "Foie Gras Maison", "desc": "Halbgegarte Foie Gras, Feigenchutney, geröstete Brioche", "price": "18.00" }
+      ],
+      "plats": [
+        { "name": "Tartare de Bœuf", "desc": "Handgeschnitten, Hausfritten, Salat", "price": "18.50" },
+        { "name": "Confit de Canard", "desc": "Entenconfit, Sarladaise-Kartoffeln, Salat", "price": "19.00" },
+        { "name": "Risotto aux Cèpes", "desc": "Cremiger Reis, saisonale Steinpilze, Parmesan", "price": "22.00" },
+        { "name": "Suprême de Volaille", "desc": "Freilandhuhn, Morcheljus, Püree", "price": "24.00" },
+        { "name": "Bistro Burger", "desc": "Brioche-Brötchen, frisches Steak, Comté, Pommes", "price": "17.00" },
+        { "name": "Bavette d'Aloyau", "desc": "Gegrillte Bavette, Schalottensauce, Pommes", "price": "20.00" }
+      ],
+      "poissons": [
+        { "name": "Filet de Bar", "desc": "Angelbarsch, Kartoffelstampf, Beurre blanc", "price": "26.00" },
+        { "name": "Lachspavé", "desc": "Gebratener Lachs, Lauchfondue, Sauce vierge", "price": "22.00" },
+        { "name": "Sole Meunière", "desc": "Ganze Seezunge, Nussbutter, Dampfkartoffeln", "price": "32.00" },
+        { "name": "Kabeljaurücken", "desc": "Gebratener Kabeljau, Ratatouille, frisches Basilikum", "price": "24.00" }
+      ],
+      "viandes": [
+        { "name": "Côte de Bœuf Maturée", "desc": "45 Tage gereift, Knochenmark, Gemüse (2 Pers.)", "price": "38.00" },
+        { "name": "Magret de Canard", "desc": "Rosa gebratene Entenbrust, Kirschsauce, Dauphinois-Gratin", "price": "25.00" },
+        { "name": "Rinderfilet", "desc": "Gegrilltes Filet, Pfeffersauce, kleine Kartoffeln", "price": "32.00" },
+        { "name": "Lammhaxe", "desc": "7 Stunden geschmort, cremige Polenta, reduzierter Jus", "price": "27.00" }
+      ],
+      "desserts": [
+        { "name": "Crème Brûlée", "desc": "Madagaskar-Vanille", "price": "9.00" },
+        { "name": "Schokoladen-Fondant", "desc": "Valrhona 70% Schokolade, Vanilleeis", "price": "11.00" },
+        { "name": "Tarte Tatin", "desc": "Karamellisierte Äpfel, Isigny Crème fraîche", "price": "10.00" },
+        { "name": "Käseplatte", "desc": "Ausgewählte gereifte Käse, Feigenmarmelade", "price": "12.00" }
+      ],
+      "vins": [
+        { "name": "Côtes du Rhône Rot", "desc": "Domaine E. Guigal — Glas / Flasche", "price": "6/28" },
+        { "name": "Chablis Weiß", "desc": "Domaine William Fèvre — Glas / Flasche", "price": "8/36" },
+        { "name": "Saint-Émilion", "desc": "Château Figeac — Flasche", "price": "52.00" },
+        { "name": "Sancerre Rosé", "desc": "Domaine Vacheron — Glas / Flasche", "price": "7/32" },
+        { "name": "Champagne", "desc": "Veuve Clicquot Brut — Flasche", "price": "65.00" }
+      ]
+    }
+  },
+  "configurator": {
+    "title": "Stellen Sie Ihr Menü zusammen",
+    "subtitle": "Vorspeise + Hauptgang + Dessert zum besten Preis",
+    "steps": { "entree": "Vorspeise", "plat": "Hauptgang", "dessert": "Dessert", "boisson": "Getränk", "recap": "Übersicht" },
+    "choose_entree": "Wählen Sie Ihre Vorspeise",
+    "choose_plat": "Wählen Sie Ihr Hauptgericht",
+    "choose_dessert": "Wählen Sie Ihr Dessert",
+    "choose_boisson": "Getränk hinzufügen",
+    "optional": "Optional — wählen Sie bei Bedarf",
+    "your_order": "Ihr Menü",
+    "from": "ab",
+    "included": "inklusive",
+    "total": "Gesamt",
+    "next": "Weiter",
+    "back": "Zurück",
+    "order": "Reservieren",
+    "ordered": "Gesendet!",
+    "restart": "Neu starten",
+    "entrees": [
+      { "id": "veloute", "label": "Tagessuppe", "price": 0 },
+      { "id": "chevre", "label": "Warmer Ziegenkäse-Salat", "price": 2.5 },
+      { "id": "terrine", "label": "Landterrine", "price": 0 },
+      { "id": "carpaccio", "label": "Rinder-Carpaccio", "price": 3.0 },
+      { "id": "foiegras", "label": "Foie Gras Maison", "price": 6.0 }
+    ],
+    "plats": [
+      { "id": "tartare", "label": "Tartare de Bœuf", "price": 0 },
+      { "id": "confit", "label": "Confit de Canard", "price": 0 },
+      { "id": "bar", "label": "Filet de Bar", "price": 4.0 },
+      { "id": "volaille", "label": "Suprême de Volaille", "price": 2.0 },
+      { "id": "bavette", "label": "Bavette d'Aloyau", "price": 0 }
+    ],
+    "desserts_list": [
+      { "id": "creme", "label": "Crème Brûlée", "price": 0 },
+      { "id": "fondant", "label": "Schokoladen-Fondant", "price": 1.5 },
+      { "id": "tatin", "label": "Tarte Tatin", "price": 0 },
+      { "id": "fromages", "label": "Käseplatte", "price": 2.0 }
+    ],
+    "boissons": [
+      { "id": "eau", "label": "Mineralwasser 50cl", "price": 3.0 },
+      { "id": "verre_vin", "label": "Glas Wein (rot/weiß)", "price": 6.0 },
+      { "id": "biere", "label": "Fassbier 33cl", "price": 5.0 },
+      { "id": "soft", "label": "Softdrink (Cola, Saft)", "price": 3.5 },
+      { "id": "cafe", "label": "Kaffee oder Tee", "price": 2.5 }
+    ],
+    "formula_price": 29.90
+  },
+  "reviews": {
+    "title": "Was sie sagen",
+    "subtitle": "Die Meinung unserer Gäste",
+    "verified": "verifizierte Bewertungen",
+    "items": [
+      { "name": "Claire M.", "text": "Gehobene Küche in warmem Ambiente. Das handgeschnittene Tartare ist einfach perfekt. Aufmerksamer Service.", "rating": 5 },
+      { "name": "Jean-Pierre D.", "text": "Das gereifte Rinderkotelette ist außergewöhnlich. Der Sommelier empfahl uns einen bemerkenswerten Saint-Émilion. Wir kommen wieder.", "rating": 5 },
+      { "name": "Isabelle R.", "text": "Mittagsmenü mit ausgezeichnetem Preis-Leistungs-Verhältnis. Das Steinpilz-Risotto hat mich begeistert. Sehr angenehme Bistro-Chic-Atmosphäre.", "rating": 5 },
+      { "name": "Marc L.", "text": "Tolle Weinkarte, großzügige und gut zubereitete Gerichte. Der Schokoladen-Fondant ist ein Muss. Einziger Hinweis: Reservieren Sie.", "rating": 4 }
+    ]
+  },
+  "contact": {
+    "title": "Finden Sie uns",
+    "subtitle": "Besuchen Sie uns",
+    "address": "12 rue de la Paix, 75002 Paris",
+    "phone": "01 XX XX XX XX",
+    "email": "contact@nomdelestablissement.fr",
+    "hours_title": "Öffnungszeiten",
+    "hours": {
+      "lun_ven": "Dienstag - Freitag: 12:00 - 14:30 / 19:00 - 23:00",
+      "sam": "Samstag: 12:00 - 15:00 / 19:00 - 23:30",
+      "dim": "Sonntag: 12:00 - 15:00 — Montag: Geschlossen"
+    },
+    "delivery": "Privatveranstaltungen möglich",
+    "order_phone": "Telefonisch reservieren"
+  },
+  "order": {
+    "title": "Bestellen",
+    "name": "Ihr Name",
+    "phone": "Telefon",
+    "address": "Lieferadresse",
+    "notes": "Besondere Hinweise",
+    "submit": "Bestellung senden",
+    "pickup": "Zum Mitnehmen",
+    "delivery": "Lieferung"
+  },
+  "reservation": {
+    "title": "Tisch reservieren",
+    "name": "Ihr Name",
+    "phone": "Telefon",
+    "date": "Datum",
+    "time": "Uhrzeit",
+    "guests": "Personenanzahl",
+    "submit": "Reservierung bestätigen"
+  },
+  "promo": {
+    "text_highlight": "Mittagsmenü",
+    "text": "Vorspeise + Hauptgang + Dessert für 29,90€",
+    "text_detail": "Dienstag bis Freitag, mittags"
+  },
+  "footer": {
+    "tagline": "Saisonale Küche, außergewöhnliche Produkte",
+    "rights": "Alle Rechte vorbehalten",
+    "legal": "Impressum",
+    "privacy": "Datenschutz"
+  }
+}

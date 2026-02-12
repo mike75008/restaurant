@@ -1,0 +1,118 @@
+ M .claude/settings.local.json
+ M .next/app-build-manifest.json
+ M .next/build-manifest.json
+ M .next/cache/webpack/client-development/0.pack.gz
+ M .next/cache/webpack/client-development/1.pack.gz
+ M .next/cache/webpack/client-development/index.pack.gz
+ M .next/cache/webpack/client-development/index.pack.gz.old
+ M .next/cache/webpack/server-development/0.pack.gz
+ M .next/cache/webpack/server-development/index.pack.gz
+ D .next/prerender-manifest.json
+ M .next/react-loadable-manifest.json
+ D .next/routes-manifest.json
+ M .next/server/app-paths-manifest.json
+ M .next/server/app/page.js
+ M .next/server/app/page_client-reference-manifest.js
+ M .next/server/interception-route-rewrite-manifest.js
+ M .next/server/middleware-build-manifest.js
+ M .next/server/middleware-react-loadable-manifest.js
+ M .next/server/next-font-manifest.js
+ M .next/server/pages-manifest.json
+ M .next/server/server-reference-manifest.js
+ M .next/server/server-reference-manifest.json
+ D .next/server/vendor-chunks/@swc.js
+ D .next/server/vendor-chunks/framer-motion.js
+ D .next/server/vendor-chunks/html-parse-stringify.js
+ D .next/server/vendor-chunks/i18next.js
+ D .next/server/vendor-chunks/lucide-react.js
+ D .next/server/vendor-chunks/motion-dom.js
+ D .next/server/vendor-chunks/motion-utils.js
+ D .next/server/vendor-chunks/next.js
+ D .next/server/vendor-chunks/react-i18next.js
+ D .next/server/vendor-chunks/void-elements.js
+ M .next/server/webpack-runtime.js
+ D .next/static/chunks/_app-pages-browser_node_modules_next_dist_client_dev_noop-turbopack-hmr_js.js
+ D .next/static/chunks/app-pages-internals.js
+ D .next/static/chunks/app/layout.js
+ D .next/static/chunks/app/page.js
+ D .next/static/chunks/main-app.js
+ D .next/static/chunks/polyfills.js
+ D .next/static/chunks/webpack.js
+ D .next/static/css/app/layout.css
+ D .next/static/development/_buildManifest.js
+ D .next/static/development/_ssgManifest.js
+ D .next/static/webpack/633457081244afec._.hot-update.json
+ M .next/trace
+ D .next/types/app/layout.ts
+ M src/components/HomePage.tsx
+ M src/components/MenuSection.tsx
+ M src/components/Reviews.tsx
+?? "C\357\200\272UsershagbeDownloadsgit_output.txt"
+?? src/components/PromoBanner.tsx
+?? src/components/WhatsAppButton.tsx
+warning: in the working copy of '.claude/settings.local.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.next/app-build-manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.next/build-manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.next/react-loadable-manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.next/server/app-paths-manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.next/server/app/page.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.next/server/pages-manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.next/trace', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/HomePage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/MenuSection.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/Reviews.tsx', LF will be replaced by CRLF the next time Git touches it
+ .claude/settings.local.json                        |    3 +-
+ .next/app-build-manifest.json                      |   30 +-
+ .next/build-manifest.json                          |   25 +-
+ .next/cache/webpack/client-development/0.pack.gz   |  Bin 200724 -> 245533 bytes
+ .next/cache/webpack/client-development/1.pack.gz   |  Bin 34625 -> 2701 bytes
+ .../cache/webpack/client-development/index.pack.gz |  Bin 266066 -> 267314 bytes
+ .../webpack/client-development/index.pack.gz.old   |  Bin 263147 -> 266235 bytes
+ .next/cache/webpack/server-development/0.pack.gz   |  Bin 3803 -> 2355 bytes
+ .../cache/webpack/server-development/index.pack.gz |  Bin 244416 -> 245321 bytes
+ .next/prerender-manifest.json                      |   11 -
+ .next/react-loadable-manifest.json                 |   12 +-
+ .next/routes-manifest.json                         |    1 -
+ .next/server/app-paths-manifest.json               |    1 +
+ .next/server/app/page.js                           |  521 +--
+ .next/server/app/page_client-reference-manifest.js |    2 +-
+ .../server/interception-route-rewrite-manifest.js  |    2 +-
+ .next/server/middleware-build-manifest.js          |   23 +-
+ .next/server/middleware-react-loadable-manifest.js |    2 +-
+ .next/server/next-font-manifest.js                 |    2 +-
+ .next/server/pages-manifest.json                   |    6 +-
+ .next/server/server-reference-manifest.js          |    2 +-
+ .next/server/server-reference-manifest.json        |    6 +-
+ .next/server/vendor-chunks/@swc.js                 |   55 -
+ .next/server/vendor-chunks/framer-motion.js        |  803 ----
+ .next/server/vendor-chunks/html-parse-stringify.js |   25 -
+ .next/server/vendor-chunks/i18next.js              |   25 -
+ .next/server/vendor-chunks/lucide-react.js         |  365 --
+ .next/server/vendor-chunks/motion-dom.js           | 1835 ---------
+ .next/server/vendor-chunks/motion-utils.js         |  275 --
+ .next/server/vendor-chunks/next.js                 | 3010 ---------------
+ .next/server/vendor-chunks/react-i18next.js        |  165 -
+ .next/server/vendor-chunks/void-elements.js        |   24 -
+ .next/server/webpack-runtime.js                    |  210 +-
+ ...s_next_dist_client_dev_noop-turbopack-hmr_js.js |   22 -
+ .next/static/chunks/app-pages-internals.js         |  182 -
+ .next/static/chunks/app/layout.js                  |  335 --
+ .next/static/chunks/app/page.js                    | 3984 --------------------
+ .next/static/chunks/main-app.js                    | 1882 ---------
+ .next/static/chunks/polyfills.js                   |    1 -
+ .next/static/chunks/webpack.js                     | 1405 -------
+ .next/static/css/app/layout.css                    | 1958 ----------
+ .next/static/development/_buildManifest.js         |    1 -
+ .next/static/development/_ssgManifest.js           |    1 -
+ .../webpack/633457081244afec._.hot-update.json     |    1 -
+ .next/trace                                        |   40 +-
+ .next/types/app/layout.ts                          |   84 -
+ src/components/HomePage.tsx                        |    4 +
+ src/components/MenuSection.tsx                     |   64 +-
+ src/components/Reviews.tsx                         |   60 +-
+ 49 files changed, 219 insertions(+), 17246 deletions(-)
+---LOG---
+72abf1d9 Option 3 configurateur de plat interactif - builder visuel etapes prix live
+56472252 Option 2 cartes 3D flip - face arriere ingredients + bouton commander
+d64e2018 Option 1 scroll cinematique - parallax hero zoom + reveal sections
+8b1189e6 1ere version reussie souci langue arabe

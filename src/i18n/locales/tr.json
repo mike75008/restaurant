@@ -1,0 +1,197 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "menu": "Menü",
+    "specialties": "Spesiyallerimiz",
+    "reviews": "Yorumlar",
+    "contact": "İletişim",
+    "order": "Sipariş",
+    "reserve": "Rezervasyon"
+  },
+  "hero": {
+    "subtitle": "Zarif mutfak",
+    "title": "Sofra Sanatı",
+    "description": "Mevsimlik mutfak, özenle seçilmiş ürünler, her tabağı yücelten bir ustalık.",
+    "cta_menu": "Menüyü keşfedin",
+    "cta_order": "Masa ayırtın"
+  },
+  "specialties": {
+    "title": "Spesiyallerimiz",
+    "subtitle": "Şefin imza tabakları",
+    "order_btn": "Rezervasyon",
+    "items": [
+      { "name": "Tartare de Bœuf", "description": "Bıçakla kesilmiş dana eti, çiftlik yumurtası sarısı, kapari, çeşniler, ev yapımı patates kızartması", "price": "18.50" },
+      { "name": "Risotto aux Cèpes", "description": "Kremsi carnaroli pirinç, mevsimlik porcini mantarı, 24 aylık Parmesan, trüf yağı", "price": "22.00" },
+      { "name": "Filet de Bar", "description": "Misina ile avlanmış levrek, patates ezme, limonlu beurre blanc", "price": "26.00" },
+      { "name": "Côte de Bœuf Maturée", "description": "45 gün olgunlaştırılmış dana kaburga, gratineli kemik iliği, yoğun sos, kavrulmuş sebzeler", "price": "38.00" },
+      { "name": "Ravioles de Romans", "description": "Taze ravioles, Comté kreması, ceviz emülsiyonu, frenk soğanı", "price": "19.00" },
+      { "name": "Suprême de Volaille", "description": "Çiftlik tavuğu, kuzugöbeği mantarı sosu, trüflü püre, mevsim sebzeleri", "price": "24.00" }
+    ],
+    "ingredients": [
+      ["Fransız dana eti", "Çiftlik yumurtası", "Kapari", "Kornişon", "Arpacık soğanı", "Ev yapımı patates"],
+      ["Carnaroli pirinç", "Taze porcini", "24 aylık Parmesan", "Trüf yağı", "Ev yapımı et suyu"],
+      ["Misina levreği", "Patates", "Tuzsuz tereyağı", "Limon", "Taze otlar"],
+      ["45 gün olgunlaşmış dana", "Kemik iliği", "Kavrulmuş sebzeler", "Et suyu", "Fleur de sel"],
+      ["Taze ravioles", "Comté AOP", "Dauphiné cevizi", "Krema", "Frenk soğanı"],
+      ["Çiftlik tavuğu", "Kurutulmuş kuzugöbeği", "Siyah trüf", "Patates", "Tereyağı"]
+    ]
+  },
+  "menu": {
+    "title": "Menü",
+    "subtitle": "Mevsimlik seçimimiz",
+    "categories": {
+      "entrees": "Başlangıçlar",
+      "plats": "Ana Yemekler",
+      "poissons": "Balıklar",
+      "viandes": "Etler",
+      "desserts": "Tatlılar",
+      "vins": "Şarap Listesi"
+    },
+    "items": {
+      "entrees": [
+        { "name": "Günün Çorbası", "desc": "Mevsimlik çorba, krema, ev yapımı kruton", "price": "9.00" },
+        { "name": "Sıcak Keçi Peyniri Salatası", "desc": "Karışık yeşillik, gratineli keçi peyniri, ceviz, bal", "price": "12.50" },
+        { "name": "Köy Terini", "desc": "Ev yapımı terin, kornişon, kızarmış ekmek", "price": "11.00" },
+        { "name": "Dana Carpaccio", "desc": "Çiğ dana eti, roka, Parmesan, zeytinyağı", "price": "14.00" },
+        { "name": "Cocotte Yumurta", "desc": "Çiftlik yumurtası, mantarlı krema, ekmek çubukları", "price": "10.50" },
+        { "name": "Foie Gras Maison", "desc": "Yarı pişmiş foie gras, incir chutney, kızarmış brioche", "price": "18.00" }
+      ],
+      "plats": [
+        { "name": "Tartare de Bœuf", "desc": "Bıçakla kesilmiş, ev patates, salata", "price": "18.50" },
+        { "name": "Confit de Canard", "desc": "Konfit ördek budu, Sarladaise patates, salata", "price": "19.00" },
+        { "name": "Risotto aux Cèpes", "desc": "Kremsi pirinç, mevsimlik porcini, Parmesan", "price": "22.00" },
+        { "name": "Suprême de Volaille", "desc": "Çiftlik tavuğu, kuzugöbeği sosu, püre", "price": "24.00" },
+        { "name": "Bistro Burger", "desc": "Brioche ekmek, taze köfte, Comté, patates", "price": "17.00" },
+        { "name": "Bavette d'Aloyau", "desc": "Izgara bavette, arpacık soğanı sosu, patates", "price": "20.00" }
+      ],
+      "poissons": [
+        { "name": "Filet de Bar", "desc": "Misina levreği, patates ezme, beurre blanc", "price": "26.00" },
+        { "name": "Somon Pavé", "desc": "Fırında somon, pırasa fondu, sauce vierge", "price": "22.00" },
+        { "name": "Sole Meunière", "desc": "Bütün dil balığı, fındık tereyağı, buharda patates", "price": "32.00" },
+        { "name": "Morina Sırtı", "desc": "Fırında morina, ratatouille, taze fesleğen", "price": "24.00" }
+      ],
+      "viandes": [
+        { "name": "Côte de Bœuf Maturée", "desc": "45 gün olgunlaşmış, kemik iliği, kavrulmuş sebze (2 kişi)", "price": "38.00" },
+        { "name": "Magret de Canard", "desc": "Pembe pişmiş ördek göğsü, kirazlı sos, dauphinois graten", "price": "25.00" },
+        { "name": "Dana Fileto", "desc": "Izgara fileto, biberli sos, küçük patates", "price": "32.00" },
+        { "name": "Kuzu İnciği", "desc": "7 saat pişmiş, kremsi polenta, yoğun sos", "price": "27.00" }
+      ],
+      "desserts": [
+        { "name": "Crème Brûlée", "desc": "Madagaskar vanilyası", "price": "9.00" },
+        { "name": "Çikolata Fondanı", "desc": "Valrhona %70 çikolata, vanilya dondurma", "price": "11.00" },
+        { "name": "Tarte Tatin", "desc": "Karamelize elma, Isigny kreması", "price": "10.00" },
+        { "name": "Peynir Tabağı", "desc": "Seçilmiş olgunlaşmış peynirler, incir reçeli", "price": "12.00" }
+      ],
+      "vins": [
+        { "name": "Côtes du Rhône Kırmızı", "desc": "Domaine E. Guigal — Kadeh / Şişe", "price": "6/28" },
+        { "name": "Chablis Beyaz", "desc": "Domaine William Fèvre — Kadeh / Şişe", "price": "8/36" },
+        { "name": "Saint-Émilion", "desc": "Château Figeac — Şişe", "price": "52.00" },
+        { "name": "Sancerre Roze", "desc": "Domaine Vacheron — Kadeh / Şişe", "price": "7/32" },
+        { "name": "Champagne", "desc": "Veuve Clicquot Brut — Şişe", "price": "65.00" }
+      ]
+    }
+  },
+  "configurator": {
+    "title": "Menünüzü Oluşturun",
+    "subtitle": "Başlangıç + Ana Yemek + Tatlı en iyi fiyata",
+    "steps": { "entree": "Başlangıç", "plat": "Ana Yemek", "dessert": "Tatlı", "boisson": "İçecek", "recap": "Özet" },
+    "choose_entree": "Başlangıcınızı seçin",
+    "choose_plat": "Ana yemeğinizi seçin",
+    "choose_dessert": "Tatlınızı seçin",
+    "choose_boisson": "İçecek ekleyin",
+    "optional": "İsteğe bağlı — isterseniz seçin",
+    "your_order": "Menünüz",
+    "from": "başlangıç",
+    "included": "dahil",
+    "total": "Toplam",
+    "next": "İleri",
+    "back": "Geri",
+    "order": "Rezervasyon",
+    "ordered": "Gönderildi!",
+    "restart": "Yeniden başla",
+    "entrees": [
+      { "id": "veloute", "label": "Günün Çorbası", "price": 0 },
+      { "id": "chevre", "label": "Sıcak Keçi Peyniri Salatası", "price": 2.5 },
+      { "id": "terrine", "label": "Köy Terini", "price": 0 },
+      { "id": "carpaccio", "label": "Dana Carpaccio", "price": 3.0 },
+      { "id": "foiegras", "label": "Foie Gras Maison", "price": 6.0 }
+    ],
+    "plats": [
+      { "id": "tartare", "label": "Tartare de Bœuf", "price": 0 },
+      { "id": "confit", "label": "Confit de Canard", "price": 0 },
+      { "id": "bar", "label": "Filet de Bar", "price": 4.0 },
+      { "id": "volaille", "label": "Suprême de Volaille", "price": 2.0 },
+      { "id": "bavette", "label": "Bavette d'Aloyau", "price": 0 }
+    ],
+    "desserts_list": [
+      { "id": "creme", "label": "Crème Brûlée", "price": 0 },
+      { "id": "fondant", "label": "Çikolata Fondanı", "price": 1.5 },
+      { "id": "tatin", "label": "Tarte Tatin", "price": 0 },
+      { "id": "fromages", "label": "Peynir Tabağı", "price": 2.0 }
+    ],
+    "boissons": [
+      { "id": "eau", "label": "Maden suyu 50cl", "price": 3.0 },
+      { "id": "verre_vin", "label": "Kadeh şarap (kırmızı/beyaz)", "price": 6.0 },
+      { "id": "biere", "label": "Fıçı bira 33cl", "price": 5.0 },
+      { "id": "soft", "label": "Meşrubat (Kola, meyve suyu)", "price": 3.5 },
+      { "id": "cafe", "label": "Kahve veya Çay", "price": 2.5 }
+    ],
+    "formula_price": 29.90
+  },
+  "reviews": {
+    "title": "Ne Diyorlar",
+    "subtitle": "Müşterilerimizin yorumları",
+    "verified": "doğrulanmış yorum",
+    "items": [
+      { "name": "Claire M.", "text": "Sıcak bir ortamda zarif mutfak. Bıçakla kesilmiş tartare gerçekten mükemmel. Özenli servis.", "rating": 5 },
+      { "name": "Jean-Pierre D.", "text": "Olgunlaştırılmış kaburga olağanüstü. Somelye bize harika bir Saint-Émilion önerdi. Tekrar geleceğiz.", "rating": 5 },
+      { "name": "Isabelle R.", "text": "Öğle menüsü mükemmel fiyat-performans. Porcini risottosu beni büyüledi. Çok hoş bistro-chic atmosfer.", "rating": 5 },
+      { "name": "Marc L.", "text": "Güzel şarap listesi, cömert ve iyi hazırlanmış yemekler. Çikolata fondanı kaçırılmaz. Tek not: rezervasyon yaptırın.", "rating": 4 }
+    ]
+  },
+  "contact": {
+    "title": "Bizi Bulun",
+    "subtitle": "Bizi ziyarete gelin",
+    "address": "12 rue de la Paix, 75002 Paris",
+    "phone": "01 XX XX XX XX",
+    "email": "contact@nomdelestablissement.fr",
+    "hours_title": "Çalışma saatleri",
+    "hours": {
+      "lun_ven": "Salı - Cuma: 12:00 - 14:30 / 19:00 - 23:00",
+      "sam": "Cumartesi: 12:00 - 15:00 / 19:00 - 23:30",
+      "dim": "Pazar: 12:00 - 15:00 — Pazartesi: Kapalı"
+    },
+    "delivery": "Özel etkinlikler için kiralama mümkün",
+    "order_phone": "Telefonla rezervasyon yapın"
+  },
+  "order": {
+    "title": "Sipariş",
+    "name": "Adınız",
+    "phone": "Telefon",
+    "address": "Teslimat adresi",
+    "notes": "Özel talimatlar",
+    "submit": "Siparişi gönder",
+    "pickup": "Gel al",
+    "delivery": "Teslimat"
+  },
+  "reservation": {
+    "title": "Masa Ayırtın",
+    "name": "Adınız",
+    "phone": "Telefon",
+    "date": "Tarih",
+    "time": "Saat",
+    "guests": "Kişi sayısı",
+    "submit": "Rezervasyonu onayla"
+  },
+  "promo": {
+    "text_highlight": "Öğle Menüsü",
+    "text": "Başlangıç + Ana Yemek + Tatlı 29,90€",
+    "text_detail": "Salıdan cumaya, öğle saatleri"
+  },
+  "footer": {
+    "tagline": "Mevsimlik mutfak, seçkin ürünler",
+    "rights": "Tüm hakları saklıdır",
+    "legal": "Yasal bilgiler",
+    "privacy": "Gizlilik politikası"
+  }
+}

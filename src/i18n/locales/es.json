@@ -1,0 +1,197 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "menu": "La Carta",
+    "specialties": "Especialidades",
+    "reviews": "Opiniones",
+    "contact": "Contacto",
+    "order": "Pedir",
+    "reserve": "Reservar"
+  },
+  "hero": {
+    "subtitle": "Cocina refinada",
+    "title": "El Arte de la Mesa",
+    "description": "Cocina de temporada, productos seleccionados con esmero, un saber hacer que sublima cada plato.",
+    "cta_menu": "Descubrir la carta",
+    "cta_order": "Reservar mesa"
+  },
+  "specialties": {
+    "title": "Nuestras Especialidades",
+    "subtitle": "Las firmas del Chef",
+    "order_btn": "Reservar",
+    "items": [
+      { "name": "Tartare de Bœuf", "description": "Ternera cortada a cuchillo, yema de huevo de corral, alcaparras, condimentos, patatas fritas caseras", "price": "18.50" },
+      { "name": "Risotto aux Cèpes", "description": "Arroz carnaroli cremoso, boletus de temporada, parmesano 24 meses, aceite de trufa", "price": "22.00" },
+      { "name": "Filet de Bar", "description": "Lubina de línea asada, puré de patatas, mantequilla blanca al limón", "price": "26.00" },
+      { "name": "Côte de Bœuf Maturée", "description": "Chuletón madurado 45 días, tuétano gratinado, jugo intenso, verduras asadas", "price": "38.00" },
+      { "name": "Ravioles de Romans", "description": "Ravioles frescos, crema de comté, emulsión de nuez, cebollino", "price": "19.00" },
+      { "name": "Suprême de Volaille", "description": "Pollo de corral, jugo de colmenillas, puré trufado, verduras de temporada", "price": "24.00" }
+    ],
+    "ingredients": [
+      ["Ternera francesa", "Huevo de corral", "Alcaparras", "Pepinillos", "Chalota", "Patatas caseras"],
+      ["Arroz carnaroli", "Boletus frescos", "Parmesano 24 meses", "Aceite de trufa", "Caldo casero"],
+      ["Lubina de línea", "Patatas", "Mantequilla semisalada", "Limón", "Hierbas frescas"],
+      ["Ternera madurada 45d", "Tuétano", "Verduras asadas", "Jugo de carne", "Flor de sal"],
+      ["Ravioles frescos", "Comté AOP", "Nueces del Delfinado", "Nata fresca", "Cebollino"],
+      ["Pollo de corral", "Colmenillas secas", "Trufa negra", "Patatas", "Mantequilla"]
+    ]
+  },
+  "menu": {
+    "title": "La Carta",
+    "subtitle": "Nuestra selección de temporada",
+    "categories": {
+      "entrees": "Entrantes",
+      "plats": "Platos",
+      "poissons": "Pescados",
+      "viandes": "Carnes",
+      "desserts": "Postres",
+      "vins": "Carta de Vinos"
+    },
+    "items": {
+      "entrees": [
+        { "name": "Crema del Día", "desc": "Sopa de temporada, nata fresca, picatostes caseros", "price": "9.00" },
+        { "name": "Ensalada de Queso de Cabra", "desc": "Mezcla de lechugas, queso de cabra gratinado, nueces, miel", "price": "12.50" },
+        { "name": "Terrina de Campo", "desc": "Terrina casera, pepinillos, pan tostado", "price": "11.00" },
+        { "name": "Carpaccio de Ternera", "desc": "Ternera cruda, rúcula, parmesano, aceite de oliva", "price": "14.00" },
+        { "name": "Huevo Cocotte", "desc": "Huevo de corral, crema de champiñones, tostas", "price": "10.50" },
+        { "name": "Foie Gras Maison", "desc": "Foie gras mi-cuit, chutney de higos, brioche tostado", "price": "18.00" }
+      ],
+      "plats": [
+        { "name": "Tartare de Bœuf", "desc": "Cortado a cuchillo, patatas fritas caseras, ensalada", "price": "18.50" },
+        { "name": "Confit de Canard", "desc": "Muslo confitado, patatas sarladesas, ensalada", "price": "19.00" },
+        { "name": "Risotto aux Cèpes", "desc": "Arroz cremoso, boletus de temporada, parmesano", "price": "22.00" },
+        { "name": "Suprême de Volaille", "desc": "Pollo de corral, jugo de colmenillas, puré", "price": "24.00" },
+        { "name": "Burger Bistrot", "desc": "Pan brioche, filete fresco, comté, patatas", "price": "17.00" },
+        { "name": "Bavette d'Aloyau", "desc": "Bavette a la plancha, salsa de chalotas, patatas", "price": "20.00" }
+      ],
+      "poissons": [
+        { "name": "Filet de Bar", "desc": "Lubina de línea, puré de patatas, mantequilla blanca", "price": "26.00" },
+        { "name": "Pavé de Saumon", "desc": "Salmón asado, fondue de puerros, salsa virgen", "price": "22.00" },
+        { "name": "Sole Meunière", "desc": "Lenguado entero, mantequilla avellana, patatas al vapor", "price": "32.00" },
+        { "name": "Dos de Cabillaud", "desc": "Bacalao asado, ratatouille, albahaca fresca", "price": "24.00" }
+      ],
+      "viandes": [
+        { "name": "Côte de Bœuf Maturée", "desc": "Madurada 45 días, tuétano, verduras asadas (2 pers.)", "price": "38.00" },
+        { "name": "Magret de Canard", "desc": "Magret rosado, salsa de cerezas, gratín dafinés", "price": "25.00" },
+        { "name": "Filet de Bœuf", "desc": "Solomillo a la plancha, salsa pimienta, patatas", "price": "32.00" },
+        { "name": "Souris d'Agneau", "desc": "Confitada 7 horas, polenta cremosa, jugo reducido", "price": "27.00" }
+      ],
+      "desserts": [
+        { "name": "Crème Brûlée", "desc": "Vainilla de Madagascar", "price": "9.00" },
+        { "name": "Fondant de Chocolate", "desc": "Chocolate Valrhona 70%, helado de vainilla", "price": "11.00" },
+        { "name": "Tarte Tatin", "desc": "Manzanas caramelizadas, nata fresca de Isigny", "price": "10.00" },
+        { "name": "Tabla de Quesos", "desc": "Selección afinada, mermelada de higos", "price": "12.00" }
+      ],
+      "vins": [
+        { "name": "Côtes du Rhône Tinto", "desc": "Domaine E. Guigal — Copa / Botella", "price": "6/28" },
+        { "name": "Chablis Blanco", "desc": "Domaine William Fèvre — Copa / Botella", "price": "8/36" },
+        { "name": "Saint-Émilion", "desc": "Château Figeac — Botella", "price": "52.00" },
+        { "name": "Sancerre Rosado", "desc": "Domaine Vacheron — Copa / Botella", "price": "7/32" },
+        { "name": "Champagne", "desc": "Veuve Clicquot Brut — Botella", "price": "65.00" }
+      ]
+    }
+  },
+  "configurator": {
+    "title": "Compose su Menú",
+    "subtitle": "Entrante + Plato + Postre al mejor precio",
+    "steps": { "entree": "Entrante", "plat": "Plato", "dessert": "Postre", "boisson": "Bebida", "recap": "Resumen" },
+    "choose_entree": "Elija su entrante",
+    "choose_plat": "Elija su plato",
+    "choose_dessert": "Elija su postre",
+    "choose_boisson": "Añada una bebida",
+    "optional": "Opcional — seleccione si lo desea",
+    "your_order": "Su menú",
+    "from": "desde",
+    "included": "incluido",
+    "total": "Total",
+    "next": "Siguiente",
+    "back": "Atrás",
+    "order": "Reservar",
+    "ordered": "¡Enviado!",
+    "restart": "Empezar de nuevo",
+    "entrees": [
+      { "id": "veloute", "label": "Crema del Día", "price": 0 },
+      { "id": "chevre", "label": "Ensalada de Queso de Cabra", "price": 2.5 },
+      { "id": "terrine", "label": "Terrina de Campo", "price": 0 },
+      { "id": "carpaccio", "label": "Carpaccio de Ternera", "price": 3.0 },
+      { "id": "foiegras", "label": "Foie Gras Maison", "price": 6.0 }
+    ],
+    "plats": [
+      { "id": "tartare", "label": "Tartare de Bœuf", "price": 0 },
+      { "id": "confit", "label": "Confit de Canard", "price": 0 },
+      { "id": "bar", "label": "Filet de Bar", "price": 4.0 },
+      { "id": "volaille", "label": "Suprême de Volaille", "price": 2.0 },
+      { "id": "bavette", "label": "Bavette d'Aloyau", "price": 0 }
+    ],
+    "desserts_list": [
+      { "id": "creme", "label": "Crème Brûlée", "price": 0 },
+      { "id": "fondant", "label": "Fondant de Chocolate", "price": 1.5 },
+      { "id": "tatin", "label": "Tarte Tatin", "price": 0 },
+      { "id": "fromages", "label": "Tabla de Quesos", "price": 2.0 }
+    ],
+    "boissons": [
+      { "id": "eau", "label": "Agua mineral 50cl", "price": 3.0 },
+      { "id": "verre_vin", "label": "Copa de vino (tinto/blanco)", "price": 6.0 },
+      { "id": "biere", "label": "Cerveza de barril 33cl", "price": 5.0 },
+      { "id": "soft", "label": "Refresco (Coca, zumo)", "price": 3.5 },
+      { "id": "cafe", "label": "Café o Té", "price": 2.5 }
+    ],
+    "formula_price": 29.90
+  },
+  "reviews": {
+    "title": "Lo que dicen",
+    "subtitle": "Opiniones de nuestros clientes",
+    "verified": "opiniones verificadas",
+    "items": [
+      { "name": "Claire M.", "text": "Cocina refinada en un ambiente acogedor. El tartare cortado a cuchillo es simplemente perfecto. Servicio atento.", "rating": 5 },
+      { "name": "Jean-Pierre D.", "text": "El chuletón madurado es excepcional. El sumiller nos recomendó un Saint-Émilion extraordinario. Volveremos.", "rating": 5 },
+      { "name": "Isabelle R.", "text": "Menú del mediodía con excelente relación calidad-precio. El risotto de boletus me sorprendió. Ambiente bistrot chic muy agradable.", "rating": 5 },
+      { "name": "Marc L.", "text": "Buena carta de vinos, platos generosos y bien ejecutados. El fondant de chocolate es imprescindible. Único detalle: reserven.", "rating": 4 }
+    ]
+  },
+  "contact": {
+    "title": "Encuéntrenos",
+    "subtitle": "Venga a visitarnos",
+    "address": "12 rue de la Paix, 75002 París",
+    "phone": "01 XX XX XX XX",
+    "email": "contact@nomdelestablissement.fr",
+    "hours_title": "Horario de apertura",
+    "hours": {
+      "lun_ven": "Martes - Viernes: 12:00 - 14:30 / 19:00 - 23:00",
+      "sam": "Sábado: 12:00 - 15:00 / 19:00 - 23:30",
+      "dim": "Domingo: 12:00 - 15:00 — Lunes: Cerrado"
+    },
+    "delivery": "Privatización posible para eventos",
+    "order_phone": "Reserve por teléfono"
+  },
+  "order": {
+    "title": "Pedir",
+    "name": "Su nombre",
+    "phone": "Teléfono",
+    "address": "Dirección de entrega",
+    "notes": "Instrucciones especiales",
+    "submit": "Enviar pedido",
+    "pickup": "Para llevar",
+    "delivery": "Entrega"
+  },
+  "reservation": {
+    "title": "Reservar mesa",
+    "name": "Su nombre",
+    "phone": "Teléfono",
+    "date": "Fecha",
+    "time": "Hora",
+    "guests": "Número de personas",
+    "submit": "Confirmar reserva"
+  },
+  "promo": {
+    "text_highlight": "Menú del Mediodía",
+    "text": "Entrante + Plato + Postre por 29,90€",
+    "text_detail": "De martes a viernes, al mediodía"
+  },
+  "footer": {
+    "tagline": "Cocina de temporada, productos excepcionales",
+    "rights": "Todos los derechos reservados",
+    "legal": "Aviso legal",
+    "privacy": "Política de privacidad"
+  }
+}

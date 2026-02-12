@@ -1,0 +1,197 @@
+{
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "specialties": "Our Specialties",
+    "reviews": "Reviews",
+    "contact": "Contact",
+    "order": "Order",
+    "reserve": "Book a Table"
+  },
+  "hero": {
+    "subtitle": "Refined cuisine",
+    "title": "The Art of Fine Dining",
+    "description": "Seasonal cuisine, carefully sourced ingredients, and craftsmanship that elevates every dish.",
+    "cta_menu": "Discover the menu",
+    "cta_order": "Book a table"
+  },
+  "specialties": {
+    "title": "Our Specialties",
+    "subtitle": "The Chef's signature dishes",
+    "order_btn": "Book",
+    "items": [
+      { "name": "Tartare de Bœuf", "description": "Hand-cut beef, free-range egg yolk, capers, condiments, house-cut fries", "price": "18.50" },
+      { "name": "Porcini Risotto", "description": "Creamy carnaroli rice, seasonal porcini, 24-month Parmesan, truffle oil", "price": "22.00" },
+      { "name": "Sea Bass Fillet", "description": "Line-caught roasted sea bass, crushed potatoes, lemon beurre blanc", "price": "26.00" },
+      { "name": "Dry-Aged Beef Rib", "description": "45-day dry-aged beef rib, gratinéed bone marrow, rich jus, roasted vegetables", "price": "38.00" },
+      { "name": "Ravioles de Romans", "description": "Fresh ravioles, Comté cream, walnut emulsion, chives", "price": "19.00" },
+      { "name": "Chicken Supreme", "description": "Free-range chicken, morel jus, truffle mash, seasonal vegetables", "price": "24.00" }
+    ],
+    "ingredients": [
+      ["French beef", "Free-range egg", "Capers", "Gherkins", "Shallots", "House-cut fries"],
+      ["Carnaroli rice", "Fresh porcini", "24-month Parmesan", "Truffle oil", "House-made broth"],
+      ["Line-caught sea bass", "Potatoes", "Salted butter", "Lemon", "Fresh herbs"],
+      ["45-day aged beef", "Bone marrow", "Roasted vegetables", "Meat jus", "Fleur de sel"],
+      ["Fresh ravioles", "Comté AOP", "Dauphiné walnuts", "Crème fraîche", "Chives"],
+      ["Free-range chicken", "Dried morels", "Black truffle", "Potatoes", "Butter"]
+    ]
+  },
+  "menu": {
+    "title": "The Menu",
+    "subtitle": "Our seasonal selection",
+    "categories": {
+      "entrees": "Starters",
+      "plats": "Main Courses",
+      "poissons": "Fish",
+      "viandes": "Meat",
+      "desserts": "Desserts",
+      "vins": "Wine List"
+    },
+    "items": {
+      "entrees": [
+        { "name": "Soup of the Day", "desc": "Seasonal soup, crème fraîche, house croutons", "price": "9.00" },
+        { "name": "Warm Goat Cheese Salad", "desc": "Mixed greens, gratinéed goat cheese, walnuts, honey", "price": "12.50" },
+        { "name": "Country Terrine", "desc": "House-made terrine, gherkins, toasted bread", "price": "11.00" },
+        { "name": "Beef Carpaccio", "desc": "Raw beef, rocket, Parmesan, olive oil", "price": "14.00" },
+        { "name": "Baked Egg", "desc": "Free-range egg, mushroom cream, toast soldiers", "price": "10.50" },
+        { "name": "Foie Gras Maison", "desc": "Semi-cooked foie gras, fig chutney, toasted brioche", "price": "18.00" }
+      ],
+      "plats": [
+        { "name": "Tartare de Bœuf", "desc": "Hand-cut, house fries, salad", "price": "18.50" },
+        { "name": "Confit de Canard", "desc": "Confit duck leg, Sarladaise potatoes, salad", "price": "19.00" },
+        { "name": "Porcini Risotto", "desc": "Creamy rice, seasonal porcini, Parmesan", "price": "22.00" },
+        { "name": "Chicken Supreme", "desc": "Free-range chicken, morel jus, mash", "price": "24.00" },
+        { "name": "Bistro Burger", "desc": "Brioche bun, fresh steak, Comté, fries", "price": "17.00" },
+        { "name": "Bavette d'Aloyau", "desc": "Grilled bavette, shallot sauce, fries", "price": "20.00" }
+      ],
+      "poissons": [
+        { "name": "Sea Bass Fillet", "desc": "Line-caught, crushed potatoes, beurre blanc", "price": "26.00" },
+        { "name": "Salmon Pavé", "desc": "Roasted salmon, leek fondue, sauce vierge", "price": "22.00" },
+        { "name": "Sole Meunière", "desc": "Whole sole, brown butter, steamed potatoes", "price": "32.00" },
+        { "name": "Cod Loin", "desc": "Roasted cod, ratatouille, fresh basil", "price": "24.00" }
+      ],
+      "viandes": [
+        { "name": "Dry-Aged Beef Rib", "desc": "45-day aged, bone marrow, roasted vegetables (serves 2)", "price": "38.00" },
+        { "name": "Duck Breast", "desc": "Pink-roasted, cherry sauce, dauphinois gratin", "price": "25.00" },
+        { "name": "Beef Tenderloin", "desc": "Grilled tenderloin, peppercorn sauce, baby potatoes", "price": "32.00" },
+        { "name": "Lamb Shank", "desc": "7-hour slow-cooked, creamy polenta, reduced jus", "price": "27.00" }
+      ],
+      "desserts": [
+        { "name": "Crème Brûlée", "desc": "Madagascar vanilla", "price": "9.00" },
+        { "name": "Chocolate Fondant", "desc": "Valrhona 70% chocolate, vanilla ice cream", "price": "11.00" },
+        { "name": "Tarte Tatin", "desc": "Caramelized apples, Isigny crème fraîche", "price": "10.00" },
+        { "name": "Cheese Plate", "desc": "Curated aged selection, fig jam", "price": "12.00" }
+      ],
+      "vins": [
+        { "name": "Côtes du Rhône Red", "desc": "Domaine E. Guigal — Glass / Bottle", "price": "6/28" },
+        { "name": "Chablis White", "desc": "Domaine William Fèvre — Glass / Bottle", "price": "8/36" },
+        { "name": "Saint-Émilion", "desc": "Château Figeac — Bottle", "price": "52.00" },
+        { "name": "Sancerre Rosé", "desc": "Domaine Vacheron — Glass / Bottle", "price": "7/32" },
+        { "name": "Champagne", "desc": "Veuve Clicquot Brut — Bottle", "price": "65.00" }
+      ]
+    }
+  },
+  "configurator": {
+    "title": "Build Your Set Menu",
+    "subtitle": "Starter + Main + Dessert at the best price",
+    "steps": { "entree": "Starter", "plat": "Main", "dessert": "Dessert", "boisson": "Drink", "recap": "Summary" },
+    "choose_entree": "Choose your starter",
+    "choose_plat": "Choose your main course",
+    "choose_dessert": "Choose your dessert",
+    "choose_boisson": "Add a drink",
+    "optional": "Optional — select if you wish",
+    "your_order": "Your set menu",
+    "from": "from",
+    "included": "included",
+    "total": "Total",
+    "next": "Next",
+    "back": "Back",
+    "order": "Book",
+    "ordered": "Sent!",
+    "restart": "Start over",
+    "entrees": [
+      { "id": "veloute", "label": "Soup of the Day", "price": 0 },
+      { "id": "chevre", "label": "Warm Goat Cheese Salad", "price": 2.5 },
+      { "id": "terrine", "label": "Country Terrine", "price": 0 },
+      { "id": "carpaccio", "label": "Beef Carpaccio", "price": 3.0 },
+      { "id": "foiegras", "label": "Foie Gras Maison", "price": 6.0 }
+    ],
+    "plats": [
+      { "id": "tartare", "label": "Tartare de Bœuf", "price": 0 },
+      { "id": "confit", "label": "Confit de Canard", "price": 0 },
+      { "id": "bar", "label": "Sea Bass Fillet", "price": 4.0 },
+      { "id": "volaille", "label": "Chicken Supreme", "price": 2.0 },
+      { "id": "bavette", "label": "Bavette d'Aloyau", "price": 0 }
+    ],
+    "desserts_list": [
+      { "id": "creme", "label": "Crème Brûlée", "price": 0 },
+      { "id": "fondant", "label": "Chocolate Fondant", "price": 1.5 },
+      { "id": "tatin", "label": "Tarte Tatin", "price": 0 },
+      { "id": "fromages", "label": "Cheese Plate", "price": 2.0 }
+    ],
+    "boissons": [
+      { "id": "eau", "label": "Mineral water 50cl", "price": 3.0 },
+      { "id": "verre_vin", "label": "Glass of wine (red/white)", "price": 6.0 },
+      { "id": "biere", "label": "Draft beer 33cl", "price": 5.0 },
+      { "id": "soft", "label": "Soft drink (Coke, juice)", "price": 3.5 },
+      { "id": "cafe", "label": "Coffee or Tea", "price": 2.5 }
+    ],
+    "formula_price": 29.90
+  },
+  "reviews": {
+    "title": "What They Say",
+    "subtitle": "Our guests' reviews",
+    "verified": "verified reviews",
+    "items": [
+      { "name": "Claire M.", "text": "Refined cuisine in a warm setting. The hand-cut tartare is simply perfect. Attentive service.", "rating": 5 },
+      { "name": "Jean-Pierre D.", "text": "The dry-aged beef rib is exceptional. The sommelier recommended a remarkable Saint-Émilion. We will be back.", "rating": 5 },
+      { "name": "Isabelle R.", "text": "Excellent value lunch set menu. The porcini risotto blew me away. Very pleasant bistro-chic ambiance.", "rating": 5 },
+      { "name": "Marc L.", "text": "Great wine list, generous and well-executed dishes. The chocolate fondant is a must. Only note: remember to book.", "rating": 4 }
+    ]
+  },
+  "contact": {
+    "title": "Find Us",
+    "subtitle": "Come and visit us",
+    "address": "12 rue de la Paix, 75002 Paris",
+    "phone": "01 XX XX XX XX",
+    "email": "contact@nomdelestablissement.fr",
+    "hours_title": "Opening hours",
+    "hours": {
+      "lun_ven": "Tuesday - Friday: 12:00 - 14:30 / 19:00 - 23:00",
+      "sam": "Saturday: 12:00 - 15:00 / 19:00 - 23:30",
+      "dim": "Sunday: 12:00 - 15:00 — Monday: Closed"
+    },
+    "delivery": "Private hire available for events",
+    "order_phone": "Book by phone"
+  },
+  "order": {
+    "title": "Order",
+    "name": "Your name",
+    "phone": "Phone",
+    "address": "Delivery address",
+    "notes": "Special instructions",
+    "submit": "Place order",
+    "pickup": "Takeaway",
+    "delivery": "Delivery"
+  },
+  "reservation": {
+    "title": "Book a Table",
+    "name": "Your name",
+    "phone": "Phone",
+    "date": "Date",
+    "time": "Time",
+    "guests": "Number of guests",
+    "submit": "Confirm booking"
+  },
+  "promo": {
+    "text_highlight": "Lunch Set Menu",
+    "text": "Starter + Main + Dessert for €29.90",
+    "text_detail": "Tuesday to Friday, lunchtime"
+  },
+  "footer": {
+    "tagline": "Seasonal cuisine, exceptional produce",
+    "rights": "All rights reserved",
+    "legal": "Legal notice",
+    "privacy": "Privacy policy"
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "menu": "La Carte",
+    "specialties": "Nos Spécialités",
+    "reviews": "Avis",
+    "contact": "Contact",
+    "order": "Commander",
+    "reserve": "Réserver"
+  },
+  "hero": {
+    "subtitle": "Cuisine raffinée",
+    "title": "L'art de la table",
+    "description": "Une cuisine de saison, des produits sourcés avec soin, un savoir-faire qui sublime chaque assiette.",
+    "cta_menu": "Découvrir la carte",
+    "cta_order": "Réserver une table"
+  },
+  "specialties": {
+    "title": "Nos Spécialités",
+    "subtitle": "Les signatures du Chef",
+    "order_btn": "Réserver",
+    "items": [
+      {
+        "name": "Tartare de Bœuf",
+        "description": "Bœuf coupé au couteau, jaune d'œuf fermier, câpres, condiments, frites maison",
+        "price": "18.50"
+      },
+      {
+        "name": "Risotto aux Cèpes",
+        "description": "Riz carnaroli crémeux, cèpes de saison, parmesan 24 mois, huile de truffe",
+        "price": "22.00"
+      },
+      {
+        "name": "Filet de Bar",
+        "description": "Bar de ligne rôti, écrasé de pommes de terre, beurre blanc au citron",
+        "price": "26.00"
+      },
+      {
+        "name": "Côte de Bœuf Maturée",
+        "description": "Côte de bœuf maturée 45 jours, os à moelle gratiné, jus corsé, légumes rôtis",
+        "price": "38.00"
+      },
+      {
+        "name": "Ravioles de Romans",
+        "description": "Ravioles fraîches, crème de comté, émulsion de noix, ciboulette",
+        "price": "19.00"
+      },
+      {
+        "name": "Suprême de Volaille",
+        "description": "Volaille fermière, jus aux morilles, purée truffée, légumes de saison",
+        "price": "24.00"
+      }
+    ],
+    "ingredients": [
+      ["Bœuf français", "Œuf fermier", "Câpres", "Cornichons", "Échalotes", "Frites maison"],
+      ["Riz carnaroli", "Cèpes frais", "Parmesan 24 mois", "Huile de truffe", "Bouillon maison"],
+      ["Bar de ligne", "Pommes de terre", "Beurre demi-sel", "Citron", "Herbes fraîches"],
+      ["Bœuf maturé 45j", "Os à moelle", "Légumes rôtis", "Jus de viande", "Fleur de sel"],
+      ["Ravioles fraîches", "Comté AOP", "Noix du Dauphiné", "Crème fraîche", "Ciboulette"],
+      ["Volaille fermière", "Morilles séchées", "Truffe noire", "Pommes de terre", "Beurre"]
+    ]
+  },
+  "menu": {
+    "title": "La Carte",
+    "subtitle": "Notre sélection de saison",
+    "categories": {
+      "entrees": "Entrées",
+      "plats": "Plats",
+      "poissons": "Poissons",
+      "viandes": "Viandes",
+      "desserts": "Desserts",
+      "vins": "Carte des Vins"
+    },
+    "items": {
+      "entrees": [
+        { "name": "Velouté du Jour", "desc": "Soupe de saison, crème fraîche, croûtons maison", "price": "9.00" },
+        { "name": "Salade de Chèvre Chaud", "desc": "Mesclun, chèvre gratiné, noix, miel", "price": "12.50" },
+        { "name": "Terrine de Campagne", "desc": "Terrine maison, cornichons, pain grillé", "price": "11.00" },
+        { "name": "Carpaccio de Bœuf", "desc": "Bœuf cru, roquette, parmesan, huile d'olive", "price": "14.00" },
+        { "name": "Œuf Cocotte", "desc": "Œuf fermier, crème aux champignons, mouillettes", "price": "10.50" },
+        { "name": "Foie Gras Maison", "desc": "Foie gras mi-cuit, chutney de figues, brioche toastée", "price": "18.00" }
+      ],
+      "plats": [
+        { "name": "Tartare de Bœuf", "desc": "Coupé au couteau, frites maison, salade", "price": "18.50" },
+        { "name": "Confit de Canard", "desc": "Cuisse confite, pommes sarladaises, salade", "price": "19.00" },
+        { "name": "Risotto aux Cèpes", "desc": "Riz crémeux, cèpes de saison, parmesan", "price": "22.00" },
+        { "name": "Suprême de Volaille", "desc": "Volaille fermière, jus aux morilles, purée", "price": "24.00" },
+        { "name": "Burger Bistrot", "desc": "Pain brioché, steak frais, comté, frites", "price": "17.00" },
+        { "name": "Bavette d'Aloyau", "desc": "Bavette grillée, sauce échalotes, frites", "price": "20.00" }
+      ],
+      "poissons": [
+        { "name": "Filet de Bar", "desc": "Bar de ligne, écrasé de pommes de terre, beurre blanc", "price": "26.00" },
+        { "name": "Pavé de Saumon", "desc": "Saumon rôti, fondue de poireaux, sauce vierge", "price": "22.00" },
+        { "name": "Sole Meunière", "desc": "Sole entière, beurre noisette, pommes vapeur", "price": "32.00" },
+        { "name": "Dos de Cabillaud", "desc": "Cabillaud rôti, ratatouille, basilic frais", "price": "24.00" }
+      ],
+      "viandes": [
+        { "name": "Côte de Bœuf Maturée", "desc": "Maturée 45 jours, os à moelle, légumes rôtis (2 pers.)", "price": "38.00" },
+        { "name": "Magret de Canard", "desc": "Magret rosé, sauce aux cerises, gratin dauphinois", "price": "25.00" },
+        { "name": "Filet de Bœuf", "desc": "Filet grillé, sauce au poivre, pommes grenailles", "price": "32.00" },
+        { "name": "Souris d'Agneau", "desc": "Confite 7 heures, polenta crémeuse, jus réduit", "price": "27.00" }
+      ],
+      "desserts": [
+        { "name": "Crème Brûlée", "desc": "Vanille de Madagascar", "price": "9.00" },
+        { "name": "Fondant au Chocolat", "desc": "Chocolat Valrhona 70%, glace vanille", "price": "11.00" },
+        { "name": "Tarte Tatin", "desc": "Pommes caramélisées, crème fraîche d'Isigny", "price": "10.00" },
+        { "name": "Assiette de Fromages", "desc": "Sélection affinée, confiture de figues", "price": "12.00" }
+      ],
+      "vins": [
+        { "name": "Côtes du Rhône Rouge", "desc": "Domaine E. Guigal — Verre / Bouteille", "price": "6/28" },
+        { "name": "Chablis Blanc", "desc": "Domaine William Fèvre — Verre / Bouteille", "price": "8/36" },
+        { "name": "Saint-Émilion", "desc": "Château Figeac — Bouteille", "price": "52.00" },
+        { "name": "Sancerre Rosé", "desc": "Domaine Vacheron — Verre / Bouteille", "price": "7/32" },
+        { "name": "Champagne", "desc": "Veuve Clicquot Brut — Bouteille", "price": "65.00" }
+      ]
+    }
+  },
+  "configurator": {
+    "title": "Composez votre Formule",
+    "subtitle": "Entrée + Plat + Dessert au meilleur prix",
+    "steps": {
+      "entree": "Entrée",
+      "plat": "Plat",
+      "dessert": "Dessert",
+      "boisson": "Boisson",
+      "recap": "Récap"
+    },
+    "choose_entree": "Choisissez votre entrée",
+    "choose_plat": "Choisissez votre plat",
+    "choose_dessert": "Choisissez votre dessert",
+    "choose_boisson": "Ajoutez une boisson",
+    "optional": "Optionnel — sélectionnez si vous le souhaitez",
+    "your_order": "Votre formule",
+    "from": "à partir de",
+    "included": "inclus",
+    "total": "Total",
+    "next": "Suivant",
+    "back": "Retour",
+    "order": "Réserver",
+    "ordered": "Envoyé !",
+    "restart": "Recommencer",
+    "entrees": [
+      { "id": "veloute", "label": "Velouté du Jour", "price": 0 },
+      { "id": "chevre", "label": "Salade de Chèvre Chaud", "price": 2.5 },
+      { "id": "terrine", "label": "Terrine de Campagne", "price": 0 },
+      { "id": "carpaccio", "label": "Carpaccio de Bœuf", "price": 3.0 },
+      { "id": "foiegras", "label": "Foie Gras Maison", "price": 6.0 }
+    ],
+    "plats": [
+      { "id": "tartare", "label": "Tartare de Bœuf", "price": 0 },
+      { "id": "confit", "label": "Confit de Canard", "price": 0 },
+      { "id": "bar", "label": "Filet de Bar", "price": 4.0 },
+      { "id": "volaille", "label": "Suprême de Volaille", "price": 2.0 },
+      { "id": "bavette", "label": "Bavette d'Aloyau", "price": 0 }
+    ],
+    "desserts_list": [
+      { "id": "creme", "label": "Crème Brûlée", "price": 0 },
+      { "id": "fondant", "label": "Fondant au Chocolat", "price": 1.5 },
+      { "id": "tatin", "label": "Tarte Tatin", "price": 0 },
+      { "id": "fromages", "label": "Assiette de Fromages", "price": 2.0 }
+    ],
+    "boissons": [
+      { "id": "eau", "label": "Eau minérale 50cl", "price": 3.0 },
+      { "id": "verre_vin", "label": "Verre de vin (rouge/blanc)", "price": 6.0 },
+      { "id": "biere", "label": "Bière pression 33cl", "price": 5.0 },
+      { "id": "soft", "label": "Soft (Coca, jus de fruits)", "price": 3.50 },
+      { "id": "cafe", "label": "Café ou Thé", "price": 2.50 }
+    ],
+    "formula_price": 29.90
+  },
+  "reviews": {
+    "title": "Ce qu'ils disent",
+    "subtitle": "L'avis de nos clients",
+    "verified": "avis vérifiés",
+    "items": [
+      { "name": "Claire M.", "text": "Une cuisine raffinée dans un cadre chaleureux. Le tartare coupé au couteau est tout simplement parfait. Service attentionné.", "rating": 5 },
+      { "name": "Jean-Pierre D.", "text": "La côte de bœuf maturée est exceptionnelle. Le sommelier nous a conseillé un Saint-Émilion remarquable. Nous reviendrons.", "rating": 5 },
+      { "name": "Isabelle R.", "text": "Formule du midi excellent rapport qualité-prix. Le risotto aux cèpes m'a bluffée. Ambiance bistrot chic très agréable.", "rating": 5 },
+      { "name": "Marc L.", "text": "Belle carte des vins, plats généreux et bien exécutés. Le fondant au chocolat est un must. Seul bémol : pensez à réserver.", "rating": 4 }
+    ]
+  },
+  "contact": {
+    "title": "Nous Trouver",
+    "subtitle": "Venez nous rendre visite",
+    "address": "12 rue de la Paix, 75002 Paris",
+    "phone": "01 XX XX XX XX",
+    "email": "contact@nomdelestablissement.fr",
+    "hours_title": "Horaires d'ouverture",
+    "hours": {
+      "lun_ven": "Mardi - Vendredi : 12h00 - 14h30 / 19h00 - 23h00",
+      "sam": "Samedi : 12h00 - 15h00 / 19h00 - 23h30",
+      "dim": "Dimanche : 12h00 - 15h00 — Lundi : Fermé"
+    },
+    "delivery": "Privatisation possible pour événements",
+    "order_phone": "Réservez par téléphone"
+  },
+  "order": {
+    "title": "Commander",
+    "name": "Votre nom",
+    "phone": "Téléphone",
+    "address": "Adresse de livraison",
+    "notes": "Instructions spéciales",
+    "submit": "Envoyer la commande",
+    "pickup": "À emporter",
+    "delivery": "Livraison"
+  },
+  "reservation": {
+    "title": "Réserver une table",
+    "name": "Votre nom",
+    "phone": "Téléphone",
+    "date": "Date",
+    "time": "Heure",
+    "guests": "Nombre de personnes",
+    "submit": "Confirmer la réservation"
+  },
+  "promo": {
+    "text_highlight": "Formule Déjeuner",
+    "text": "Entrée + Plat + Dessert à 29.90€",
+    "text_detail": "Du mardi au vendredi, le midi"
+  },
+  "footer": {
+    "tagline": "Cuisine de saison, produits d'exception",
+    "rights": "Tous droits réservés",
+    "legal": "Mentions légales",
+    "privacy": "Politique de confidentialité"
+  }
+}
