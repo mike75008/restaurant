@@ -3,9 +3,12 @@
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { Instagram, Facebook, ArrowUp } from "lucide-react";
+import { useDemo } from "@/lib/DemoContext";
 
 export default function Footer() {
   const { t } = useTranslation();
+  const demo = useDemo();
+  const brandName = demo?.name ?? "Nom de l'établissement";
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -21,7 +24,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <h3 className="font-serif text-2xl text-cream-50 mb-3">
-              Nom de l&apos;établissement
+              {brandName}
             </h3>
             <p className="font-sans text-sm tracking-wide leading-relaxed">
               {t("footer.tagline")}

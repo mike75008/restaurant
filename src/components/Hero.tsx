@@ -4,9 +4,12 @@ import { useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ChevronDown } from "lucide-react";
+import { useDemo } from "@/lib/DemoContext";
 
 export default function Hero() {
   const { t } = useTranslation();
+  const demo = useDemo();
+  const title = demo?.name ?? t("hero.title");
   const sectionRef = useRef<HTMLElement>(null);
 
   const { scrollYProgress } = useScroll({
@@ -73,7 +76,7 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.8 }}
           className="font-serif text-4xl md:text-6xl lg:text-7xl font-bold text-cream-50 mb-8 leading-[0.95]"
         >
-          {t("hero.title").split("").map((letter, i) => (
+          {title.split("").map((letter, i) => (
             <motion.span
               key={i}
               initial={{ opacity: 0, y: 40 }}
