@@ -29,8 +29,18 @@ export async function GET(
   });
 
   if (!res.ok) {
+    const body = await res.text();
     return NextResponse.json(
-      { error: "Record not found" },
+      {
+        error: "Record not found",
+        debug: {
+          airtableStatus: res.status,
+          baseIdLength: AIRTABLE_BASE_ID?.length ?? 0,
+          tableName: AIRTABLE_TABLE_NAME,
+          recordId,
+          airtableMessage: body.slice(0, 200),
+        },
+      },
       { status: res.status }
     );
   }
