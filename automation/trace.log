@@ -1,0 +1,24 @@
+
+=== Run 2026-02-19T03:35:03.167Z ===
+2026-02-19T03:35:03.170Z | INIT | Démarrage
+2026-02-19T03:35:03.182Z | ENV | Base ID length=17 | Table=Restaurants
+2026-02-19T03:35:03.183Z | FETCH_ALL | Récupération jusqu'à 10 enregistrements (debug Status)...
+2026-02-19T03:35:04.057Z | FETCH_ALL | OK | n=6
+2026-02-19T03:35:04.059Z | PHASE1 | Entrée phase "À contacter" -> Prêt à l'envoi
+2026-02-19T03:35:04.061Z | PHASE1_FETCH | Appel Airtable filterByFormula "À contacter"...
+2026-02-19T03:35:04.275Z | PHASE1_FETCH | OK | lignes=1
+2026-02-19T03:35:04.276Z | RECORD | ma caille | recordId=recwAl91W36bJ9m5D
+2026-02-19T03:35:04.276Z | RECORD | ma caille | checkUrl entrée
+2026-02-19T03:35:04.662Z | RECORD | ma caille | checkUrl sortie
+2026-02-19T03:35:04.664Z | RECORD | ma caille | checkGmb entrée
+2026-02-19T03:35:04.805Z | RECORD | ma caille | checkGmb sortie
+2026-02-19T03:35:04.806Z | RECORD | ma caille | updateRecord Airtable entrée
+2026-02-19T03:35:05.201Z | RECORD | ma caille | updateRecord Airtable OK
+2026-02-19T03:35:10.581Z | PHASE1 | Sortie | Prêt à l'envoi: 1
+2026-02-19T03:35:10.610Z | PHASE2 | Entrée phase "À envoyer" -> Démo envoyée
+2026-02-19T03:35:10.679Z | PHASE2_FETCH | Appel Airtable filterByFormula "À envoyer"...
+2026-02-19T03:35:11.562Z | PHASE2_FETCH | OK | lignes=0
+2026-02-19T03:35:11.600Z | PHASE2 | Sortie | Démo envoyée: 0
+2026-02-19T03:35:11.658Z | FIN | Terminé | Prêt à l'envoi: 1, Démo envoyée: 0
+=== Fin run ===
+

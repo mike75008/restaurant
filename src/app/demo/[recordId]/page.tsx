@@ -1,15 +1,14 @@
-"use client";
-
-import { use } from "react";
-import HomePage from "@/components/HomePage";
 import { DemoProvider } from "@/lib/DemoContext";
+import HomePage from "@/components/HomePage";
 
-export default function DemoPage({
+export const dynamic = "force-dynamic";
+
+export default async function DemoPage({
   params,
 }: {
   params: Promise<{ recordId: string }>;
 }) {
-  const { recordId } = use(params);
+  const { recordId } = await params;
 
   return (
     <DemoProvider recordId={recordId}>
